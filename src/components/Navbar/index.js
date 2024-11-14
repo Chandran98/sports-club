@@ -58,30 +58,30 @@ const Navbar = () => {
             </a>
           </div> */}
           <div className="gap-12 flex justify-center items-center">
-            <div className="">
-              <div>
-                <Link to={"/profile"}>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className=" h-6  fill-white"
-                    viewBox="0 0 448 512"
-                  >
-                    <path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z" />
-                  </svg>
-                </Link>
-              </div>
-            </div>
-
             {tokenexpired() ? (
-              <a
-                onClick={() => {
-                  localStorage.removeItem("token");
-                  window.location.href = "/login";
-                }}
-                className=" lg:inline-flex items-center p-2 text-base font-semibold text-white bg-blue-600 rounded-md hover:bg-blue-700"
-              >
-                Logout
-              </a>
+              <div className=" flex gap-12 items-center justify-center">
+                <div>
+                  <Link to={"/profile"}>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className=" h-6  fill-white"
+                      viewBox="0 0 448 512"
+                    >
+                      <path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z" />
+                    </svg>
+                  </Link>
+                </div>
+
+                <a
+                  onClick={() => {
+                    localStorage.removeItem("token");
+                    window.location.href = "/login";
+                  }}
+                  className=" lg:inline-flex items-center p-2 text-base font-semibold text-white bg-blue-600 rounded-md hover:bg-blue-700"
+                >
+                  Logout
+                </a>
+              </div>
             ) : (
               <a
                 onClick={() => {

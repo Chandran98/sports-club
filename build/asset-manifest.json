@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5e5c8a2d.css",
+    "main.js": "/static/js/main.915f7605.js",
+    "static/media/sports-events.jpg": "/static/media/sports-events.39f992c887e2914f2a00.jpg",
+    "static/media/post3.jpg": "/static/media/post3.b789a828c8c0c75afaa3.jpg",
+    "static/media/post2.jpg": "/static/media/post2.efdd4dae816e99125c47.jpg",
+    "static/media/surface.jpg": "/static/media/surface.d7be8eb2436b7e343528.jpg",
+    "static/media/post.jpg": "/static/media/post.6361a3db653cb0e0b880.jpg",
+    "static/media/eventsasset.webp": "/static/media/eventsasset.e922cda0934bf2b8af4b.webp",
+    "static/media/aboutus5.jpg": "/static/media/aboutus5.af9a0bb1a5370f15634e.jpg",
+    "static/media/warming-up.jpg": "/static/media/warming-up.496ee77014f564a22ff8.jpg",
+    "index.html": "/index.html",
+    "main.5e5c8a2d.css.map": "/static/css/main.5e5c8a2d.css.map",
+    "main.915f7605.js.map": "/static/js/main.915f7605.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e5c8a2d.css",
+    "static/js/main.915f7605.js"
+  ]
+}
