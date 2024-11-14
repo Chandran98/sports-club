@@ -1,0 +1,42 @@
+/* Header Styles */
+header {
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar--transparent {
+    background-color: transparent;
+  }
+  
+  .navbar--active {
+    background-color: black;
+  }
+  
+  /* Mobile Menu */
+  nav a,
+  nav button {
+    padding: 0.5rem 0;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #1d4ed8; /* Change to your preferred hover color */
+  }
+  
+
+  .mobile-menu {
+    display: block !important;
+  }
+
+  /* Hide the mobile menu on larger screens (desktop) */
+@media (min-width: 1024px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+
+/* Ensure the mobile menu is visible on small screens, including 320px and below */
+@media (max-width: 1023px) {
+  .mobile-menu {
+    display: none;
+  }
+}
